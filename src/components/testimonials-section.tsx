@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Андрей Смирнов",
+    role: "Любитель бега, Москва",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Наконец-то нашёл приложение, которое показывает реальные маршруты по паркам рядом с домом. ИИ составил мне план подготовки к первому полумарафону — уже бегу третий месяц!",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Мария Кузнецова",
+    role: "Фитнес-блогер, Санкт-Петербург",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Нашла через FitMap целую тусовку воркаутеров в своём районе. Теперь каждые выходные тренируемся вместе на уличных брусьях — мотивация зашкаливает!",
+  },
+  {
+    name: "Дмитрий Ли",
+    role: "Триатлонист-любитель, Казань",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Синхронизация с Garmin работает идеально. Приложение само анализирует мои данные и корректирует нагрузку — чувствую, что тренируюсь умнее, а не больше.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят пользователи</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Тысячи людей уже тренируются умнее вместе с FitMap AI
           </p>
         </div>
 

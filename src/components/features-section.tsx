@@ -1,53 +1,54 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Icon from "@/components/ui/icon"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
+    title: "ИИ-тренер в кармане",
+    description: "Персональный план тренировок на неделю с чередованием активностей, площадок и нагрузки — на основе ваших целей, расписания и погоды.",
+    icon: "Brain",
     badge: "ИИ",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
+    title: "Карта спортивных мест",
+    description: "Тысячи площадок, залов, парков и маршрутов на одной карте с фильтрами, фото, отзывами и графиком работы.",
+    icon: "MapPin",
+    badge: "Навигация",
   },
   {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
+    title: "Маршруты для бега и велосипеда",
+    description: "Оптимальные маршруты разной длины и сложности с учётом рельефа, загруженности и мест для отдыха по пути.",
+    icon: "Route",
+    badge: "Маршруты",
   },
   {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
-    icon: "zap",
-    badge: "Умный",
+    title: "Календарь и прогресс",
+    description: "Планируйте занятия, получайте напоминания и следите за прогрессом — калории, дистанция, время и графики роста.",
+    icon: "CalendarDays",
+    badge: "Статистика",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
+    title: "Сообщества и челленджи",
+    description: "Группы по интересам, совместные тренировки, еженедельные челленджи и таблица лидеров для мотивации.",
+    icon: "Users",
+    badge: "Социальность",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
-    icon: "target",
-    badge: "XR Ready",
+    title: "Синхронизация с трекерами",
+    description: "Подключите Apple Watch, Garmin, Xiaomi, Google Fit или Samsung Health — данные учитываются автоматически.",
+    icon: "Smartphone",
+    badge: "Интеграция",
   },
 ]
 
 export function FeaturesSection() {
   return (
-    <section className="py-24 px-6 bg-background">
+    <section id="features" className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Всё для тренировок — в одном месте</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            FitMap AI объединяет карту, планирование, ИИ-рекомендации и социальный функционал в едином приложении
           </p>
         </div>
 
@@ -60,13 +61,8 @@ export function FeaturesSection() {
             >
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-3xl">
-                    {feature.icon === "brain" && "&#129504;"}
-                    {feature.icon === "lock" && "&#128274;"}
-                    {feature.icon === "globe" && "&#127760;"}
-                    {feature.icon === "zap" && "&#9889;"}
-                    {feature.icon === "link" && "&#128279;"}
-                    {feature.icon === "target" && "&#127919;"}
+                  <span className="text-red-500">
+                    <Icon name={feature.icon} size={32} fallback="Star" />
                   </span>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {feature.badge}
