@@ -32,7 +32,7 @@ export function TestimonialsSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят пользователи</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Тысячи людей уже тренируются умнее вместе с FitMap AI
+            Тысячи людей уже тренируются умнее вместе с FitMap
           </p>
         </div>
 

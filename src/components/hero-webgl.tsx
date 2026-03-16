@@ -114,8 +114,8 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "FitMap AI".split(" ")
-  const subtitle = "Умный помощник для тренировок на улице."
+  const titleWords = "FitMap".split(" ")
+  const subtitle = "Спорт — это жизнь."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)
   const [delays, setDelays] = useState<number[]>([])

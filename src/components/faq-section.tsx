@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export function FAQSection() {
   const faqs = [
     {
-      question: "Для кого подходит FitMap AI?",
+      question: "Для кого подходит FitMap?",
       answer:
         "Для всех, кто хочет тренироваться на улице или в городе: новичков, которые только начинают, любителей бега и воркаута, людей, готовящихся к соревнованиям. Вы указываете уровень подготовки при регистрации — и приложение адаптирует рекомендации под вас.",
     },
@@ -25,7 +25,7 @@ export function FAQSection() {
     {
       question: "Какие трекеры и приложения поддерживаются?",
       answer:
-        "FitMap AI синхронизируется с Apple Watch, Fitbit, Xiaomi Mi Band, Garmin, Google Fit и Samsung Health. Данные о пульсе, калориях и шагах учитываются автоматически при формировании рекомендаций.",
+        "FitMap синхронизируется с Apple Watch, Fitbit, Xiaomi Mi Band, Garmin, Google Fit и Samsung Health. Данные о пульсе, калориях и шагах учитываются автоматически при формировании рекомендаций.",
     },
     {
       question: "Приложение работает без интернета?",
@@ -40,7 +40,7 @@ export function FAQSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-orbitron">Частые вопросы</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto font-space-mono">
-            Всё, что нужно знать перед началом работы с FitMap AI.
+            Всё, что нужно знать перед началом работы с FitMap.
           </p>
         </div>
 

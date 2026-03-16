@@ -8,7 +8,7 @@ export function CTASection() {
           <h2 className="text-5xl font-bold text-foreground mb-6 font-sans text-balance">Начни тренироваться умнее уже сегодня</h2>
           <p className="text-xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
             Присоединяйся к сообществу активных людей, которые находят лучшие места для тренировок
-            и достигают своих целей вместе с FitMap AI.
+            и достигают своих целей вместе с FitMap.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

@@ -48,7 +48,7 @@ export function FeaturesSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Всё для тренировок — в одном месте</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            FitMap AI объединяет карту, планирование, ИИ-рекомендации и социальный функционал в едином приложении
+            FitMap объединяет карту, планирование, ИИ-рекомендации и социальный функционал в едином приложении
           </p>
         </div>
 
